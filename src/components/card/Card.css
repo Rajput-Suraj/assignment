@@ -1,0 +1,35 @@
+.MuiCard-root {
+    position: absolute !important;
+    top: 150px !important;
+    /* left: 460px !important; */
+    left: 415px !important;
+    border-radius: 20px !important;
+    width: 500px;
+    height: 50vh;
+}
+
+.MuiButtonBase-root {
+    background-color: #f6f6f6 !important;
+    height: 100px;
+}
+
+.MuiButtonBase-root > h3 {
+    font-size: 20px !important;
+    color: #545454;
+}
+
+.users {
+    display: flex;
+    align-items: center;
+    padding: 10px 40px;
+}
+
+.user__name {
+    font-size: 18px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+hr {
+    margin: 0 40px;
+}

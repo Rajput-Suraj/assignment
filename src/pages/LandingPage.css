@@ -1,0 +1,27 @@
+.landing-page {
+    background-image: linear-gradient(to right, #6d2ec8, #375cc8);
+    height: 350px;
+}
+
+.landing-page > h1 {
+    color: white;
+    margin: 0;
+    padding: 150px 0;
+    text-align: center;
+}
+
+.wave1 {
+    position: absolute;
+    top: 100px;
+    left: 0;
+}
+
+.wave2 {
+    position: absolute;
+    left: 0;
+    top: 115px;
+}
+
+.card-container {
+    margin: 0 auto !important;
+}
