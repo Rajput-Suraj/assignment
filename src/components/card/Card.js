@@ -4,6 +4,7 @@ import CardActionArea from "@material-ui/core/CardActionArea";
 import "./Card.css";
 import { Avatar } from "@material-ui/core";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 const MyCard = () => {
     const [users, setUsers] = useState([]);
@@ -26,13 +27,15 @@ const MyCard = () => {
                 {users.map(({ id, name, profilepicture }) => {
                     return (
                         <Fragment key={id}>
-                            <div className="users">
-                                <Avatar
-                                    className="avatarImg"
-                                    src={profilepicture}
-                                />
-                                <p className="user__name">{name}</p>
-                            </div>
+                            <Link to="/profile">
+                                <div className="users">
+                                    <Avatar
+                                        className="avatarImg"
+                                        src={profilepicture}
+                                    />
+                                    <p className="user__name">{name}</p>
+                                </div>
+                            </Link>
                             <hr />
                         </Fragment>
                     );
