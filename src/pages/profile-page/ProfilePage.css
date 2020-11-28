@@ -60,3 +60,44 @@
 .user__header__right > p {
     padding: 0 10px;
 }
+
+.user__body {
+    /* align-items: center; */
+    display: flex;
+    padding: 20px;
+}
+
+.user__body__left {
+    flex: 0.4;
+    border-right: 1px solid gray;
+}
+
+.user__body__left > P {
+    padding: 5px 0;
+}
+
+.user__avatar {
+    height: 140px !important;
+    width: 140px !important;
+    margin: 0 auto !important;
+}
+
+.user__text {
+    font-size: 20px;
+    text-align: center;
+}
+
+.user__info {
+    /* text-align: justify; */
+    /* margin: 0 auto; */
+}
+
+.user__info__title {
+    color: #545454;
+    padding: 0 50px;
+    width: 30%;
+}
+
+.user__body__right {
+    flex: 0.6;
+}
