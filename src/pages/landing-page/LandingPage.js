@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import "./LandingPage.css";
-import Card from "../components/card/Card";
+import Card from "../../components/card/Card";
 
 const LandingPage = () => {
     return (

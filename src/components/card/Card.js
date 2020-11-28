@@ -20,7 +20,7 @@ const MyCard = () => {
     return (
         <Card>
             <CardActionArea>
-                <h3>Select an account</h3>
+                <h3 className="title">Select an account</h3>
             </CardActionArea>
             <div className="users__details">
                 {users.map(({ id, name, profilepicture }) => {
